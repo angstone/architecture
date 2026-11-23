@@ -16,4 +16,4 @@ Alternative 2 (Occam: the smallest change that gives routing and a visible versi
 ## Consequences
 Checks: every R-id exactly once in `docs/spec`, every rationale names an existing R-id, every spec file opens with the one header, and a freeze is refused when a header differs from the tag.
 
-The tag `going_merry_alpha_5.2` was set (on the monolith, with the corrections D1 to D10) before the layout work finished. A tag is never moved, so the layout is not a new freeze: the freeze check compares every header and the whole spec with the file at that tag.
+The tag `v5.2` was set (on the monolith, with the corrections D1 to D10) before the layout work finished. A tag is never moved, so the layout is not a new freeze: the freeze check compares every header and the whole spec with the file at that tag.

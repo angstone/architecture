@@ -24,6 +24,8 @@ jobs:
         run: node scripts/check-spec.mjs
       - name: No person names
         run: node scripts/check-names.mjs
+      - name: Neutral public name (no franchise, ship, character or studio name)
+        run: node scripts/neutral-name.mjs .
       - name: Relative links resolve
         run: node scripts/check-links.mjs
       - name: A spec change cites its R-id and changes its test reference

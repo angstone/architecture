@@ -4,7 +4,7 @@
 
 **Pinned commit:** `b5956b089faf9bd74a717da0191e6b33ef1b4fd6` (`origin/dev` of angstone-network when this was computed). **Run:** a clean clone of that commit, `npm ci`, then `npx vitest run <the 30 test files named by the rules>` on 2026-11-23: 438 tests, 438 passed, 0 failed, 0 skipped, 0 todo (raw: `docs/spec/TESTS.json`).
 
-**Spec:** `going_merry_alpha_5.2.1` (the 5.2 text, commit 8157617, with its release token corrected); the `Test:` paragraph of each rule in `docs/spec/02-runtime.md` to `06-guidelines.md` names the files; the spec names files, not individual test titles, so the *test name* column gives the top-level suite title(s) found in the file by the run. Spec paths `test/...` are the network repo's paths. R0(a)-R0(e) are definitions without tests (not counted in the 105).
+**Spec:** `merry-5.2.1` (the 5.2 text, commit 8157617, with its release token corrected); the `Test:` paragraph of each rule in `docs/spec/02-runtime.md` to `06-guidelines.md` names the files; the spec names files, not individual test titles, so the *test name* column gives the top-level suite title(s) found in the file by the run. Spec paths `test/...` are the network repo's paths. R0(a)-R0(e) are definitions without tests (not counted in the 105).
 
 **Status words.** `pass`: every named file exists at the pin and every test in it passed this session. `pending-stage-N`: the named file does not exist at the pin; the rule belongs to a stage not yet implemented (stage = first stage file `docs/spec/15..19` that names the R-id, else its family: R1-R3 -> 5, R4 -> 4). `partial`: some named files pass, others pending. `merged`: the rule is a stub merged into another R-id, which carries the test. A pending rule is not a passing rule.
 

@@ -1,6 +1,6 @@
 # Notice
 
-**Text licence.** The text of this repository is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), the full legal code of which is in [LICENSE](LICENSE). Attribution: credit "Angstone architecture", give the version (`going_merry_alpha_5.2.1`), link this repository and the licence, and indicate whether you changed the text.
+**Text licence.** The text of this repository is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), the full legal code of which is in [LICENSE](LICENSE). Attribution: credit "Angstone architecture", give the version (`merry-5.2.1`), link this repository and the licence, and indicate whether you changed the text.
 
 **No patent licence.** CC BY 4.0 grants rights in the copyright of the text only. It grants no licence under any patent, and none is implied by publishing, reading, implementing or citing this text.
 

@@ -1,4 +1,4 @@
-**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
+**Angstone Architecture — Merry 5.2.1** · `merry-5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 # Angstone architecture: the target and the path
 The target of the whole system, part by part (section 1), the runtime and the gates (Part R) and the order of the path (section 2); the stage sections record what holds today.
@@ -11,12 +11,12 @@ This text is Merry 5.2.1 (frozen): the frozen 5.2 text with its release token co
 
 Changes in 5.2, ten corrections C1 to C10 (the defects D1 to D10 of the owner-values ruling, not the legal decisions D1-D18), each with the section of its correction: C1 the unstaked subtree has its own floor slice of the unverified pool, divided equally among its holders, with a load-time assertion that the ceiling of subtrees is at least 1 (R2.11); C2 the cadence of proposals is a protocol constant and every proposal seals a checkpoint (R1.17, R0(c)); C3 the two epoch bounds have two names, `MAX_EPOCH_SPAN` in days and `MAX_EPOCH_SPAN_SEQS` in seqs, the seq side produced by the `nextSeq` commitment and the days side by a fail-closed check of the plugin class, a deliberate liveness coupling (plugin runs are refused until a hand-over) (R0(c), R1.17, R3.10); C4 the eviction price in two resources and the order in which its values are ruled (R0(e)); C5 the subtree-share bound is declared an identity and the usability floor of the free allotment is the assertion that binds (R0(e)); C6 the storage bounds are tied to the supported device by a measured corpus over the entry counts the slices can reach (R2.6, R0(e)); C7 the per-connection cap is per connection and a relay that multiplexes users shares one (R2.11); C8 the record declares the maximum set size it serves, `metering.nMax`, and `queryCharge` is asserted at load against it at the weakest admitted threshold (R0(c)); C9 the bound of staked keys inside an invited subtree (R0(e)); C10 the executor role, the relay operators' reading and the adequacy of the destination country are an open item for the lawyer (OI-44, G13).
 
-### Names: going_merry_alpha_N, thousand_sunny_N, menu teseu
+### Names: merry-N, sunny-N, menu teseu
 
 Conventions that bind every text and every artifact:
 
-- The architecture version is named `going_merry_alpha_N`, with N counting from 1. This document is the current version, `going_merry_alpha_5.2.1` (the release token, stated once, here).
-- Once the seed passes to the council and a major council exists, the architecture series is named `thousand_sunny_N`, from 1.
+- The architecture version is named `merry-N`, with N counting from 1. This document is the current version, `merry-5.2.1` (the release token, stated once, here).
+- Once the seed passes to the council and a major council exists, the architecture series is named `sunny-N`, from 1.
 - The names of the channels (alfa, dev, prod) and the host alfa.angstone.app are not architecture names and do not change: the channel is not the architecture.
 - The ME menu is named `menu teseu`, written exactly so: lowercase, never translated to "Theseus", never capitalised. Every person's menu is their teseu: the same name for all, never the person's name. The security theorem's "Theseus resistance" is a different thing and keeps its name.
 

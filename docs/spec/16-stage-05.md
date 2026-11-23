@@ -1,4 +1,4 @@
-**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
+**Angstone Architecture — Merry 5.2.1** · `merry-5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 ## Stage 5: every action a Lumi Action, one rule set on every node, the relay a carrier
 

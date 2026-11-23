@@ -1,8 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this specification, please cite it as below."
-title: "Angstone architecture, Merry 5.2.1"
+title: "Angstone Architecture — Merry 5.2.1"
 type: dataset
-version: going_merry_alpha_5.2.1
+version: merry-5.2.1
+identifiers:
+  - type: other
+    value: arch-v5.2.1
+    description: the neutral tag of the same commit
 date-released: 2026-11-23
 license: CC-BY-4.0
 url: "https://angstone.app"
