@@ -157,7 +157,7 @@ The text at the tag is frozen: a proposal that changes a requirement is a propos
 ```sh
 git clone https://github.com/angstone/architecture && cd architecture
 git rev-parse 'going_merry_alpha_5.2.1^{commit}'     # the commit the tag names
-git diff --stat going_merry_alpha_5.2.1 -- docs      # empty: the spec is the tag's text
+git diff --stat going_merry_alpha_5.2.1 -- docs/spec docs/rationale docs/decisions      # empty: the spec is the tag's text
 node scripts/check-spec.mjs                          # 105 R-ids once, rationale pointers, one header
 node scripts/check-names.mjs                         # no natural person is named
 node scripts/check-links.mjs                         # every relative link resolves
@@ -170,4 +170,12 @@ sha256sum -c SHA256SUMS                              # after downloading the rel
 
 ## Licence and editorial note
 
-Text licensed under [CC BY 4.0](LICENSE). The specification is the frozen text of the version; the only edit made for this publication is that 2 mentions of a natural person's name were replaced by "the owner". Paths in the text (for example `network/`, `site/`, `test/`) refer to the code repositories of the project, not to this one. Cite as in [CITATION.cff](CITATION.cff).
+**Text.** The text of this repository (the specification, rationale, decision records, whitepaper and this README) is licensed under [CC BY 4.0](LICENSE): you may share and adapt it, including commercially, if you give credit, link the licence and say what you changed.
+
+**What the licence does not grant.** CC BY 4.0 grants no patent licence, and none is implied. The Angstone name and marks are registered trademarks and are not licensed by CC BY 4.0: using the text does not give a right to use the name or the marks. See [NOTICE.md](NOTICE.md).
+
+**Code.** This repository holds no code of the project. The project's future code repositories will use Apache-2.0.
+
+**Works this text relies on** are listed with their links and licences in [docs/REFERENCES.md](docs/REFERENCES.md); the specification cites them and does not reproduce them.
+
+The specification is the frozen text of the version; the only edit made for this publication is that 2 mentions of a natural person's name were replaced by "the owner". Paths in the text (for example `network/`, `site/`, `test/`) refer to the code repositories of the project, not to this one. Cite as in [CITATION.cff](CITATION.cff).
