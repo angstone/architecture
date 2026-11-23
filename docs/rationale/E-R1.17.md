@@ -1,0 +1,5 @@
+Rationale for: R1.17
+
+Non-normative. It explains rule R1.17 of `docs/spec/02-runtime.md` and creates no requirement; where it differs from the rule, the rule governs. Proposed by the model `claude-fable-5-1`, kept only after the identifier check of `scripts/fable-reduce.mjs`.
+
+The residual risk, stated here, is that a node whose clock and carrier are both controlled by the attacker serves only its own uncounted verdicts. The head's checkpoint time advances by a rule and not by luck: sealing a checkpoint in every proposing tick and refusing to seal a proposing tick without one ensures a backlog of owed rewards or a failed proposal cannot hold the checkpoint time back. The node today seals one entry per tick, so this correction requires it to seal the checkpoint in that tick and not in a later one. The lower bound on `FINALITY_WINDOW_S` of `2 x PROPOSE_EVERY_S + 3 x Delta + CLOCK_SKEW_S` is chosen so that one failed proposal still leaves a head inside `FINALITY_WINDOW_S` plus one round timeout. `PROPOSE_EVERY_S` exists today in `constants/seed.ts` as a code default of 6 hours and `CLOCK_SKEW_S` as a code default, both awaiting the owner's number with OI-31.
