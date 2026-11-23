@@ -1,10 +1,10 @@
 <p align="left">
-  <img src="assets/social-preview.svg" alt="Angstone architecture, Merry 5.2" width="720">
+  <img src="assets/social-preview.svg" alt="Angstone architecture, Merry 5.2.1" width="720">
 </p>
 
 # Angstone architecture
 
-[![version](https://img.shields.io/badge/version-going__merry__alpha__5.2-1f6feb)](https://github.com/angstone/architecture/releases/tag/going_merry_alpha_5.2)
+[![version](https://img.shields.io/badge/version-going__merry__alpha__5.2.1-1f6feb)](https://github.com/angstone/architecture/releases/tag/going_merry_alpha_5.2.1)
 [![licence](https://img.shields.io/badge/licence-CC%20BY%204.0-2da44e)](LICENSE)
 [![spec status](https://img.shields.io/badge/spec-frozen-8250df)](docs/spec/README.md)
 [![R-ids](https://img.shields.io/badge/R--ids-105-0969da)](docs/spec/README.md)
@@ -137,13 +137,14 @@ Each rule names the test that holds it in its `Test:` line. The tests live in th
 
 | version | tag | status |
 | --- | --- | --- |
-| Merry 5.2 | `going_merry_alpha_5.2` | frozen, in force |
+| Merry 5.2.1 | `going_merry_alpha_5.2.1` | frozen, in force (erratum of 5.2: the release token only, no requirement changed) |
+| Merry 5.2 | `going_merry_alpha_5.2` | frozen, superseded by 5.2.1 |
 | Merry 5.1 | `going_merry_alpha_5.1` | frozen, superseded by 5.2 |
 | Merry 5 | `going_merry_alpha_5` | frozen, superseded |
 | Merry 2 | `going_merry_alpha_2` | frozen, superseded |
 | alpha 1 | `architecture-alpha-1` | frozen, superseded |
 
-Only Merry 5.2 is published here; earlier versions live in the project's private history and their texts are not part of this repository. A tag is never moved.
+Only Merry 5.2.1 and its tag are published here (the tag of 5.2 is kept, never moved); earlier versions live in the project's private history and their texts are not part of this repository. A tag is never moved.
 
 ## How to contribute
 
@@ -155,16 +156,16 @@ The text at the tag is frozen: a proposal that changes a requirement is a propos
 
 ```sh
 git clone https://github.com/angstone/architecture && cd architecture
-git rev-parse 'going_merry_alpha_5.2^{commit}'       # the commit the tag names
-git diff --stat going_merry_alpha_5.2 -- docs        # empty: the spec is the tag's text
+git rev-parse 'going_merry_alpha_5.2.1^{commit}'     # the commit the tag names
+git diff --stat going_merry_alpha_5.2.1 -- docs      # empty: the spec is the tag's text
 node scripts/check-spec.mjs                          # 105 R-ids once, rationale pointers, one header
 node scripts/check-names.mjs                         # no natural person is named
 node scripts/check-links.mjs                         # every relative link resolves
 sha256sum -c SHA256SUMS                              # after downloading the release assets next to it
 ```
 
-- Tag: `going_merry_alpha_5.2`. The tag commit is printed by `git rev-parse` above and listed in the [release notes](https://github.com/angstone/architecture/releases/tag/going_merry_alpha_5.2).
-- The `commit 8157617` in each spec header is the commit of the project's source repository that froze the text; the tag of this repository names the published commit.
+- Tag: `going_merry_alpha_5.2.1`. The tag commit is printed by `git rev-parse` above and listed in the [release notes](https://github.com/angstone/architecture/releases/tag/going_merry_alpha_5.2.1).
+- The `commit 8157617` in each spec header is the commit of the project's source repository that froze the 5.2 text this version corrects; the tag of this repository names the published commit.
 - The release carries the paper, the full specification as one PDF and `SHA256SUMS`.
 
 ## Licence and editorial note

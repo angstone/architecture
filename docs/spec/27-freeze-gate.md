@@ -1,4 +1,4 @@
-**Merry 5.2** · `going_merry_alpha_5.2` · frozen · 2026-11-23 · commit 8157617
+**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 ## Freeze gate: what must be true before this version is frozen
 
@@ -49,7 +49,7 @@ The commands, one block, run from the workspace root (each gate's expected resul
 ```
 P=projects/personal/angstone
 D=$P/docs/ARCHITECTURE.md
-TAG=$(sed -n 's/^- The architecture version is named .*This document is the current version, `\([a-z_]*[0-9]*\)` (the release token.*$/\1/p' $D)
+TAG=$(sed -n 's/^- The architecture version is named .*This document is the current version, `\([a-z_0-9.]*\)` (the release token.*$/\1/p' $D)
 G14_REPORTS=.ai-docs/analysis
 FORBIDDEN_NAMES=$P/tools/forbidden-names.txt
 FORBIDDEN_WORDS=$P/tools/forbidden-words.txt

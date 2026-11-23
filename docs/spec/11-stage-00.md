@@ -1,4 +1,4 @@
-**Merry 5.2** · `going_merry_alpha_5.2` · frozen · 2026-11-23 · commit 8157617
+**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 ## Stage 0: first network, one sealing key, 1 of 1 (Build A)
 

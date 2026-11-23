@@ -9,10 +9,10 @@ import { join } from 'node:path'
 
 const SPEC = 'docs/spec', RAT = 'docs/rationale'
 const meta = JSON.parse(readFileSync('scripts/spec-meta.json', 'utf8'))
-const HEADER_RE = /^\*\*Merry 5\.2\*\* · `([^`]+)` · (candidate|frozen) · (\d{4}-\d{2}-\d{2}) · commit ([0-9a-f]{7,40})$/
+const HEADER_RE = /^\*\*Merry 5\.2\.1\*\* · `([^`]+)` · (candidate|frozen) · (\d{4}-\d{2}-\d{2}) · commit ([0-9a-f]{7,40})$/
 const fails = []
 const fail = (m) => fails.push(m)
-const md = (d) => readdirSync(d).filter((f) => f.endsWith('.md') && f !== 'README.md').sort().map((f) => [f, readFileSync(join(d, f), 'utf8')])
+const md = (d) => readdirSync(d).filter((f) => f.endsWith('.md') && !['README.md', 'TESTS.md', 'E-5.1-superseded.md'].includes(f)).sort().map((f) => [f, readFileSync(join(d, f), 'utf8')])
 
 const ids = new Map()
 for (const [f, t] of md(SPEC)) for (const m of t.matchAll(/^\*\*(R[1-5]\.\d+)[ *]/gm)) ids.set(m[1], [...(ids.get(m[1]) ?? []), f])
@@ -34,7 +34,7 @@ const headers = new Map()
 for (const [f, t] of md(SPEC)) {
   const first = t.split('\n')[0]
   const m = first.match(HEADER_RE)
-  if (!m) { fail(`${f}: first line is not the Merry 5.2 header`); continue }
+  if (!m) { fail(`${f}: first line is not the Merry 5.2.1 header`); continue }
   if (m[1] !== meta.tag) fail(`${f}: header names ${m[1]}, expected ${meta.tag}`)
   if (m[2] !== meta.status) fail(`${f}: header status is ${m[2]}, expected ${meta.status}`)
   if (!m[4].startsWith(meta.headerCommit)) fail(`${f}: header commit ${m[4]} is not ${meta.headerCommit}`)

@@ -1,12 +1,13 @@
-**Merry 5.2** · `going_merry_alpha_5.2` · frozen · 2026-11-23 · commit 8157617
+**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 # Angstone architecture, specification
 
-Version in force: Merry 5.2, `going_merry_alpha_5.2`, frozen at commit `8157617` (the annotated tag; its file is `docs/ARCHITECTURE.md` at that commit, kept in `docs/archive/going_merry_alpha_5.2/`). This folder is that text split by source range, character for character, with the version header on every file.
+Version in force: Merry 5.2.1, `going_merry_alpha_5.2.1`, the 5.2 text (frozen at commit `8157617`, tag `going_merry_alpha_5.2`, kept in `docs/archive/going_merry_alpha_5.2/`) with its release token corrected, no requirement changed; the text of 5.2.1 is `docs/archive/going_merry_alpha_5.2.1/ARCHITECTURE.md`, and the header commit names the 5.2 text. This folder is that text split by source range, character for character, except that every file opens with the version header and 13 `Rationale:` pointer lines are added (the check excludes them); the informative section "R3 residual risk" of the 5.2 text lives only in `docs/rationale/R3-residual-risk.md` (non-normative; no rule cites it by name). The 5.1 sentences replaced by corrections C1 to C10 are kept verbatim in `docs/rationale/E-5.1-superseded.md`. Which test backs which rule, with its status at a pinned network commit: `TESTS.md`.
 
 | version | tag | status |
 | --- | --- | --- |
-| Merry 5.2 | `going_merry_alpha_5.2` | frozen, in force |
+| Merry 5.2.1 | `going_merry_alpha_5.2.1` | frozen, in force (erratum of 5.2: the release token only) |
+| Merry 5.2 | `going_merry_alpha_5.2` | frozen, superseded by 5.2.1 |
 | Merry 5.1 | `going_merry_alpha_5.1` | frozen, superseded by 5.2 |
 | Merry 5 | `going_merry_alpha_5` | frozen, superseded |
 | Merry 2 | `going_merry_alpha_2` | frozen, superseded |

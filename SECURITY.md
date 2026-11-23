@@ -24,4 +24,5 @@ In scope: the specification text, the rationale and decisions, and the scripts i
 
 | version | tag | supported |
 | --- | --- | --- |
-| Merry 5.2 | `going_merry_alpha_5.2` | yes |
+| Merry 5.2.1 | `going_merry_alpha_5.2.1` | yes |
+| Merry 5.2 | `going_merry_alpha_5.2` | superseded by 5.2.1 (the same text, its release token corrected) |

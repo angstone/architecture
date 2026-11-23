@@ -1,4 +1,4 @@
-**Merry 5.2** · `going_merry_alpha_5.2` · frozen · 2026-11-23 · commit 8157617
+**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 ## Stage 8b: a council seat with proven inference (future, after Stage 8; not built)
 

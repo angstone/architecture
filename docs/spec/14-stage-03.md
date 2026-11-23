@@ -1,4 +1,4 @@
-**Merry 5.2** · `going_merry_alpha_5.2` · frozen · 2026-11-23 · commit 8157617
+**Merry 5.2.1** · `going_merry_alpha_5.2.1` · frozen · 2026-11-23 · commit 8157617
 
 ## Stage 3: 2 of 2, the first member key and the limb desktop or a founding member's phone
 
