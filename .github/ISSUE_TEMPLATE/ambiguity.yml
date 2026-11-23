@@ -1,0 +1,30 @@
+name: Ambiguity
+description: A passage can be read two ways, or a term is undefined
+labels: ["ambiguity"]
+body:
+  - type: input
+    id: rid
+    attributes:
+      label: R-id or section
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: The passage
+      description: Quote it.
+    validations:
+      required: true
+  - type: textarea
+    id: readings
+    attributes:
+      label: The readings
+      description: Give each reading and what an implementation would do differently under each.
+    validations:
+      required: true
+  - type: checkboxes
+    id: ai
+    attributes:
+      label: Authorship
+      options:
+        - label: This report was written by an AI

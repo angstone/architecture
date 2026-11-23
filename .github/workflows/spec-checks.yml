@@ -1,0 +1,33 @@
+name: spec-checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  spec-checks:
+    name: spec-checks
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: R-id coverage, rationale pointers, header against the tag
+        run: node scripts/check-spec.mjs
+      - name: No person names
+        run: node scripts/check-names.mjs
+      - name: Relative links resolve
+        run: node scripts/check-links.mjs
+      - name: A spec change cites its R-id and changes its test reference
+        if: github.event_name == 'pull_request'
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: node scripts/check-pr.mjs "origin/${{ github.base_ref }}"

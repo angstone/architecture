@@ -1,0 +1,40 @@
+name: Proposal
+description: A change to a requirement, for the next version
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: "The text of a published tag is frozen. A proposal changes the next version, never a tag."
+  - type: input
+    id: rid
+    attributes:
+      label: R-ids affected
+      description: Existing ids, or "new"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Three alternatives and the simplest that works
+      description: The proposal, two other ways, and why the simplest wins.
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: How the rule would be tested
+      description: The test file and the cases that must refuse.
+    validations:
+      required: true
+  - type: checkboxes
+    id: ai
+    attributes:
+      label: Authorship
+      options:
+        - label: This proposal was written by an AI
