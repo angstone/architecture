@@ -1,0 +1,40 @@
+name: Spec defect
+description: A rule is wrong, two passages contradict, or a refusal is missing
+labels: ["spec-defect"]
+body:
+  - type: markdown
+    attributes:
+      value: "A vulnerability in the design is not a public issue: use a private advisory (see SECURITY.md)."
+  - type: input
+    id: rid
+    attributes:
+      label: R-id or section
+      description: For example R3.10 or section 2, Stage 5
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Quote the text and say which requirement it breaks or contradicts.
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: The smallest case in which a system that follows the text still behaves wrongly.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Proposed fix
+    validations:
+      required: false
+  - type: checkboxes
+    id: ai
+    attributes:
+      label: Authorship
+      options:
+        - label: This report was written by an AI

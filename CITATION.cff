@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this specification, please cite it as below."
+title: "Angstone Architecture — Merry 5.2.1"
+type: dataset
+version: merry-5.2.1
+identifiers:
+  - type: other
+    value: arch-v5.2.1
+    description: the neutral tag of the same commit
+date-released: 2026-11-23
+license: CC-BY-4.0
+url: "https://angstone.app"
+repository-code: "https://github.com/angstone/architecture"
+abstract: "The architecture of Angstone, a network where every device is a server: normative specification, rationale and decision records of version Merry 5.2.1."
+keywords:
+  - decentralized
+  - peer-to-peer
+  - specification
+  - architecture
+  - trust
+  - consensus
+  - plugins
+  - privacy
+authors:
+  - name: "Angstone"

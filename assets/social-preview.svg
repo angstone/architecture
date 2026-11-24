@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Angstone Architecture — Merry 5.2.1">
+  <defs>
+    <style>
+      text { font-family: 'Roboto', sans-serif; text-anchor: start; }
+    </style>
+  </defs>
+  <rect width="1280" height="640" fill="#0b1220"/>
+  <rect x="0" y="0" width="12" height="640" fill="#1f6feb"/>
+  <g stroke="#1f6feb" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M760 520 H820 M880 520 H940 M1000 520 H1060 M1120 520 H1180"/>
+    <path d="M760 440 H880 M940 440 H1060 M1120 440 H1180"/>
+    <path d="M760 360 H820 M880 360 H1000 M1060 360 H1180"/>
+  </g>
+  <g fill="#1f6feb">
+    <circle cx="760" cy="520" r="9"/><circle cx="880" cy="520" r="9"/><circle cx="1000" cy="520" r="9"/><circle cx="1120" cy="520" r="9"/>
+    <circle cx="760" cy="440" r="9" opacity="0.7"/><circle cx="940" cy="440" r="9" opacity="0.7"/><circle cx="1120" cy="440" r="9" opacity="0.7"/>
+    <circle cx="760" cy="360" r="9" opacity="0.45"/><circle cx="880" cy="360" r="9" opacity="0.45"/><circle cx="1060" cy="360" r="9" opacity="0.45"/>
+  </g>
+  <text x="80" y="150" font-size="30" font-weight="500" fill="#8b9bb4" letter-spacing="4">ANGSTONE</text>
+  <text x="80" y="270" font-size="96" font-weight="700" fill="#ffffff">Architecture</text>
+  <text x="80" y="350" font-size="44" font-weight="400" fill="#c9d4e5">Every device is a server.</text>
+  <text x="80" y="540" font-size="34" font-weight="500" fill="#58a6ff">Merry 5.2.1 · merry-5.2.1</text>
+  <text x="80" y="590" font-size="26" font-weight="400" fill="#8b9bb4">frozen spec · 105 requirements · CC BY 4.0</text>
+</svg>

@@ -1,0 +1,304 @@
+{
+  "source": "docs/archive/merry-5.2.1/ARCHITECTURE.md",
+  "sourceLines": 4467,
+  "files": [
+    {
+      "path": "docs/spec/00-overview.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          0,
+          62
+        ],
+        [
+          597,
+          620
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/07-target.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          62,
+          597
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/01-registry.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          620,
+          781
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/02-runtime.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          781,
+          956
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/03-executor.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          956,
+          1159
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/04-plugins.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          1159,
+          1499
+        ]
+      ]
+    },
+    {
+      "path": "docs/rationale/R3-residual-risk.md",
+      "layer": "rationale",
+      "ranges": [
+        [
+          1499,
+          1521
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/05-scale.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          1521,
+          1687
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/06-guidelines.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          1687,
+          1787
+        ],
+        [
+          1787,
+          1902
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/08-path-intro.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          1902,
+          1914
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/09-features.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          1914,
+          2167
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/10-legal.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2167,
+          2461
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/11-stage-00.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2461,
+          2507
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/12-stage-01.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2507,
+          2542
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/13-stage-02.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2542,
+          2597
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/14-stage-03.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2597,
+          2654
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/15-stage-04.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2654,
+          2721
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/16-stage-05.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2721,
+          2787
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/17-stage-06.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2787,
+          2836
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/18-stage-07.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          2836,
+          3948
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/19-stage-07b.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          3948,
+          3997
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/20-stage-08.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          3997,
+          4046
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/21-stage-08b.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4046,
+          4073
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/22-stage-09.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4073,
+          4103
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/23-stage-reached.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4103,
+          4109
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/24-map.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4109,
+          4171
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/25-open-items.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4171,
+          4285
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/26-in-flight.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4285,
+          4304
+        ]
+      ]
+    },
+    {
+      "path": "docs/spec/27-freeze-gate.md",
+      "layer": "spec",
+      "ranges": [
+        [
+          4304,
+          4467
+        ]
+      ]
+    }
+  ]
+}

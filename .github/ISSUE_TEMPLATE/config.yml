@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability privately
+    url: https://github.com/angstone/architecture/security/advisories/new
+    about: A flaw in the design is reported through a private advisory, never a public issue.
+  - name: Ask a question
+    url: https://github.com/angstone/architecture/discussions
+    about: Questions and open discussion.
