@@ -57,7 +57,7 @@
   "R3.6": "pass",
   "R3.7": "pending-stage-5",
   "R3.8": "pending-stage-5",
-  "R3.9": "pending-stage-5",
+  "R3.9": "pass",
   "R3.10": "pending-stage-5",
   "R3.11": "pending-stage-5",
   "R3.12": "pending-stage-5",
@@ -65,15 +65,15 @@
   "R3.14": "pending-stage-5",
   "R3.15": "pending-stage-5",
   "R3.16": "pending-stage-5",
-  "R3.17": "pending-stage-5",
+  "R3.17": "partial",
   "R3.18": "pending-stage-5",
   "R3.19": "pending-stage-5",
   "R3.20": "pending-stage-5",
-  "R3.21": "pending-stage-5",
+  "R3.21": "pass",
   "R3.22": "merged -> R3.10 (pending-stage-5)",
   "R3.23": "pending-stage-5",
   "R3.24": "pending-stage-5",
-  "R3.25": "pending-stage-5",
+  "R3.25": "pass",
   "R3.26": "pending-stage-5",
   "R3.27": "pending-stage-5",
   "R3.28": "pending-stage-5",
@@ -448,6 +448,16 @@
    "suites": [
     "R5.9 types exported only from interfaces/"
    ]
+  }
+ },
+ "site": {
+  "pin": "d3fbba6eb9250e2c12f2ea34d5897c52d6cf6ba7",
+  "repo": "angstone/angstone-site",
+  "files": {
+   "site/src/plugin/authorize.screen.test.tsx": "pass",
+   "site/src/plugin/authorize.gate.test.tsx": "pass",
+   "site/src/plugin/authorize.toggle.test.tsx": "pass",
+   "site/src/plugin/grant-history.screen.test.tsx": "partial"
   }
  }
 }
